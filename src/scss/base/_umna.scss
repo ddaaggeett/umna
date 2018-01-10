@@ -1,0 +1,160 @@
+#content {
+	position: absolute;
+	z-index: 2;
+	width: 50%;
+	top: 90%;
+	margin-left: 25%;
+	// border: 1px solid white;
+    padding: 10px;
+}
+a {
+	text-decoration: none;
+	color: yellow;
+}
+a:hover {
+	color: 	#A67C00;
+}
+#print_form {
+	color: yellow;
+}
+#print_form:hover {
+	color: 	#A67C00;
+	cursor: pointer;
+}
+#footer {
+    position: relative;
+    left: 0;
+    right: 0;
+    // bottom: 0;
+    height: 200px;
+    width: 100%;
+    // border: 1px solid white;
+
+}
+#signature {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 8px
+}
+form {
+	position: absolute;
+	width: 300px;
+	left: -20px;
+}
+.form_item {
+    padding: 12px 20px;
+    margin: 3px 0px 3px 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+	font-size: 18px;
+	width: 100%;
+}
+#form_submit {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	font-size: 18px;
+}
+#form_submit:hover {
+	background-color: #4CfF00;
+	color: black;
+}
+.subscribe {
+	border: 1px solid white
+}
+body {
+	font-family: Arial;
+	color: white;
+	font-size: 20px;
+	background-color: #960000;
+	height: 100%;
+}
+h2 {
+	margin-left:-25px;
+	font-family: cursive;
+	color: #00f9ff;
+}
+.body_item {
+	display: block;
+}
+#map {
+	top: 20%;
+	height: 70%;
+	right: 30%;
+	z-index: 0;
+	padding-right: 50px;
+}
+#umnaBounds {
+	height: 100%;
+}
+#welcome_mat {
+	left: 0;
+	top: 0;
+	bottom: 10%;
+	width: 100%;
+}
+#welcome {
+	font-family: cursvie;
+	margin-left: 4%;
+	z-index: 2;
+	margin-top: 5%;
+}
+.welcome_mat_item {
+	position: absolute;
+}
+#intro {
+	left:75%;
+	top: 20%;
+	width: 200px;
+	z-index: 1;
+	text-align: right;
+	padding: 20px;
+}
+.page_item {
+	display: block;
+	z-index: 1;
+}
+#buttons {
+	position: absolute;
+	bottom: 15%;
+	right: 100px;
+	z-index: 2;
+}
+.button {
+	display: inline-block;
+	text-align: center;
+	height: 45px;
+	width: 170px;
+	border: 2px solid white;
+	border-radius: 4px;
+	margin: 2px;
+	background-color: #A67C00;
+	bottom: 0;
+	color: white;
+	cursor: pointer;
+}
+.button:hover {
+	background-color: #f00;
+	border: 2px solid black;
+	color: white;
+}
+.button p {
+	margin-top: 12px;
+	// vertical-align: middle;
+}
+#list {
+	list-style-type: none;
+    margin: 0;
+    margin-top:15px;
+    padding: 0;
+    max-width: 630px;
+    margin-left:auto;
+    margin-right: auto;
+}
+.list_item_link {
+	font-size: 12px;
+}
