@@ -48,13 +48,13 @@ a:hover {
 	width: 100%;
 }
 .form_item_mobile {
-    padding: 12px 20px;
+	display: inline-block;
+    padding: 12px;
     margin: 3px auto 3px auto;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
-	font-size: 18px;
-	width: 100%;
+	font-size: 12px;
 }
 #form_submit {
     background-color: #4CAF50;
@@ -64,12 +64,22 @@ a:hover {
     cursor: pointer;
 	font-size: 18px;
 }
+#form_submit_mobile {
+    background-color: #4CAF50;
+    color: white;
+    // border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	// font-size: 14px;
+	// text-align: center;
+	width: 30%;
+}
+#email_mobile {
+	width: 70%;
+}
 #form_submit:hover {
 	background-color: #4CfF00;
 	color: black;
-}
-.subscribe {
-	border: 1px solid white
 }
 body {
 	font-family: Arial;
@@ -93,6 +103,7 @@ h3 {
 }
 #we_are {
 	text-align: center;
+	font-size: 14px;
 }
 #map {
 	top: 20%;

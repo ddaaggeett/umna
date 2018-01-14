@@ -10,21 +10,21 @@ const Subscribe = () => {
                     action="http://groups.google.com/group/UMNA-News/boxsubscribe">
                     <input
                         className="form_item_mobile"
-                        id="form_submit"
-                        type="submit"
-                        name="sub"
-                        defaultValue="Subscribe to our mailing list" />
-                    <input
-                        className="form_item_mobile"
                         type="hidden"
                         name="hl"
                         defaultValue="en" />
                     <input
                         className="form_item_mobile"
-                        id="email"
+                        id="email_mobile"
                         placeholder="your email address"
                         type="text"
                         name="email" />
+                    <input
+                        className="form_item_mobile"
+                        id="form_submit_mobile"
+                        type="submit"
+                        name="sub"
+                        defaultValue="Subscribe" />
                 </form>
             </MediaQuery>
 
@@ -33,12 +33,6 @@ const Subscribe = () => {
                     action="http://groups.google.com/group/UMNA-News/boxsubscribe">
                     <input
                         className="form_item"
-                        id="form_submit"
-                        type="submit"
-                        name="sub"
-                        defaultValue="Subscribe to our mailing list" />
-                    <input
-                        className="form_item"
                         type="hidden"
                         name="hl"
                         defaultValue="en" />
@@ -48,6 +42,12 @@ const Subscribe = () => {
                         placeholder="your email address"
                         type="text"
                         name="email" />
+                    <input
+                        className="form_item"
+                        id="form_submit"
+                        type="submit"
+                        name="sub"
+                        defaultValue="Subscribe to our mailing list" />
                 </form>
             </MediaQuery>
         </div>
